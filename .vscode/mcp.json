@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "unsplash": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

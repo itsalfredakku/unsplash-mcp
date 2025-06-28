@@ -53,7 +53,10 @@ ehthumbs.db
 Thumbs.db
 
 # Editor directories and files
-.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+!.vscode/mcp.json
 .idea/
 *.swp
 *.swo
